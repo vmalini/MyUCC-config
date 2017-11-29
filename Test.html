@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <H2>My Login Page </H2>
+        <br> Username: <input id="uid" name="username" type="text">
+        <br> Password: <input id="pwd" name="password" type="password">
+        <br> <br><button type="button" onclick="myFunction()">LOGIN</button>
+        <br><br><H3 id="displaymsg"></H3>
+
+        <script>
+            function myFunction() {
+                  if (uid.value == "Test")
+                  {
+                    if (pwd.value == "Pass1")
+                       {
+                            displaymsg.innerHTML="Success!!!";
+                        }
+                  }
+                  else
+                       {
+                             displaymsg.innerHTML="Check your credentials again!";
+                       }
+            }
+        </script>
+
+
+    </body>
+</html>
